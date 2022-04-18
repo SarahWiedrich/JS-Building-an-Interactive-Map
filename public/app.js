@@ -28,7 +28,8 @@ let polygon = L.polygon(latlngs, {color: 'blue'}).addTo(myMap);
 let redPin = L.icon({
     iconUrl:'assets/red-pin.png',
     iconSize:     [38, 38],
-    iconAnchor:   [19, 38], 
+    iconAnchor:   [19, 38],
+    popupAnchor: [0, -38]
 });
 // L.marker([51.5, -0.09], {icon: greenIcon}).addTo(myMap);
 
